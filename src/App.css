@@ -24,7 +24,7 @@
   font-family: Nantes;
   font-size: 5rem;
   font-style:bold;
-  margin-bottom: 1px;
+  margin-bottom: 10px;
 }
 .hero-subtext{
   font-family: Nantes;
@@ -80,4 +80,19 @@
 }
 .grid-img:hover{
   z-index: 999;
+}
+.login-button{
+  width:180px;
+  height: 55px;
+  font-family: Inter;
+  border-radius: 50px;
+  outline:none;
+  border:0px;
+  background-color: #1DB954;
+  color:#fff;
+  cursor: pointer;
+}
+.login-button:hover{
+  background-color: #43e27a;
+  transition: 0.3s;
 }
