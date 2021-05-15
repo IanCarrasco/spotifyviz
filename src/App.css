@@ -1,0 +1,83 @@
+@font-face {
+  font-family: Inter;
+  src: url('./fonts/Inter-Regular.ttf');
+  font-style: normal;
+}
+@font-face {
+  font-family: Nantes;
+  src: url("./fonts/NantesWeb-Regular.woff") format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: NantesBold;
+  src: url("./fonts/NantesWeb-Bold.woff") format('woff');
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-text{
+  font-family: Nantes;
+  font-size: 5rem;
+  font-style:bold;
+  margin-bottom: 1px;
+}
+.hero-subtext{
+  font-family: Nantes;
+  font-size: 1.6rem;
+  font-style:bold;
+  color: #777;
+}
+.search-box{
+  width: 500px;
+  margin-top: 24px;
+  padding: 16px 4px 16px 20px;
+  background: white none repeat scroll 0% 0%;
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 20px;
+  font-family: Inter;
+  margin-bottom: 30px;
+}
+.search-input{
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(19, 23, 57);
+  outline: currentcolor none medium;
+  border: medium none;
+  width: 90%;
+  padding: 4px 0px;
+  font-family: Inter;
+
+}
+.search-submit{
+  font-size: 2rem;
+  cursor: pointer;
+}
+.artistImage{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.album-grid{
+  width:80vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid-img{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 30px;
+  margin:3px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.grid-img:hover{
+  z-index: 999;
+}
